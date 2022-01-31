@@ -15,3 +15,11 @@ const func2 = (str) => {
   return str;
 };
 console.log(func2("func2です。"));
+
+const func3 = (str) => str;
+console.log(func3("func3です。"));
+
+const func3_1 = (num1, num2) => {
+  return num1 + num2;
+};
+console.log(func3_1(10, 20));
