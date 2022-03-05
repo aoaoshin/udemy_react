@@ -1,6 +1,7 @@
 /**
  * mapやfilterを使った配列の処理
  */
+// map
 const nameArr = ["藤澤", "吉田", "鈴木", "青木"];
 for (let index = 0; index < nameArr.length; index++) {
   console.log(nameArr[index]);
@@ -13,6 +14,7 @@ console.log(nameArr2);
 
 nameArr.map((name) => console.log(name));
 
+// filter
 const numArr = [1, 2, 3, 4, 5];
 const nuwNumArr = numArr.filter((num) => {
   return num % 2 === 1;
